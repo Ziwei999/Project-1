@@ -1,6 +1,7 @@
 
 header h1{
  text-align: center;
+ letter-spacing: 5px;
 
 } 
 
@@ -73,6 +74,10 @@ a {
     font-size: 50px;
  }
 
+ .page{
+    max-width: 100ch;
+ }
+
 
 section{
     margin-left: 20px;
@@ -82,12 +87,12 @@ section{
 }
 
 .intro{
-    max-width: 100ch;
+    max-width: 90ch;
  }
 
  .intro1{
     /* text-align: right; */
-    max-width: 100ch;
+    max-width: 90ch;
     
  }
 
@@ -99,7 +104,7 @@ cite {
 	margin-left: 3em;
 }
 
-.quote{
+blockquote{
     font-size: 25px;
     font-weight: bold;
 }
