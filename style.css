@@ -12,6 +12,7 @@ header p{
 }
 body{
     background-color: #edd4be;
+    padding-right: 30px;
 }
 /* h5{
      text-align: center;
@@ -106,13 +107,13 @@ cite {
 .container2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 0.5fr 0.6fr;
+    grid-template-rows: 0.2fr 1fr 0.5fr 0.4fr;
     padding-left: 80px;
    padding-top: 80px;
    
 }
 .head{
-    grid-template-columns: 1/span 1;
+    grid-column: 1/span 1;
     grid-row: 1;
 }
 .section1{
@@ -122,13 +123,19 @@ cite {
 }
 
 .section2{
+    grid-column: 1 /span 2;
     grid-row: 3;
-    max-width: 90ch;
+    /* max-width: 90ch; */
+}
+
+.section{
+    grid-column: 1 /span 2;
+    grid-row: 4;
 }
 
 .section3{
-    grid-template-columns: 2/ span 1;
-    grid-row: 1/span 3;
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 2;
     padding-left: 80px; 
     max-width: 85ch;
 }
@@ -148,9 +155,9 @@ h2{
 .container3{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.5fr;
     padding-left: 80px;
-    padding-top: 80px;
+    padding-top: 50px;
     /* margin-top: 20px; */
 }
 
@@ -171,6 +178,7 @@ max-width: 80ch;
     grid-row: 2/span 1;
     padding-left: 80px;
     max-width: 80ch;
+    
 }
 
 .container4{
