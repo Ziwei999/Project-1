@@ -59,11 +59,11 @@ header p{
        
     }
    
-    em{
+    /* em{
        font-size: 18px;
-       /* color: #284B63; */
+      
     }
-   
+    */
    /* strong{
        font-size: 23px;
       
@@ -122,6 +122,7 @@ header p{
        font-size: 30px;
        font-weight: bold;
        font-style: italic;
+       max-width: 90ch;
    }
    
    
@@ -177,6 +178,7 @@ header p{
        grid-template-columns: 0.2fr 0.7fr;
        grid-template-rows: 1fr 1fr 1fr 1fr;
       padding-left: 80px;
+      padding-top: 100px;
       
      
    
@@ -236,7 +238,7 @@ header p{
        max-width: 80ch;
        left: 800px;
       
-       bottom: 800px;
+       bottom: 900px;
        
    }
    
