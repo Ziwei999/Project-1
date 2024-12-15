@@ -1,0 +1,4 @@
+This is the first project of the Typographic Design class. The article I read is "We Need Graphic Design Histories That Look Beyond the Profession". This article is about a broader perspective on the study of graphic design history. 
+It is the first time to use Visual Studio Code. I used Sublime before. I replace the article and my response on the website with HTML and CSS. First, I sketched it in the Figma. Then, based on the Figma sketches I created the website in HTML and CSS. 
+I created the layout of the paragraphs using grid-template-column at first. But I tried to use nth-child a second time. It is my first time using the nth-child tag. I have some problems when I use it. But I really enjoy it and try to fix it.I feel that is interested to have some challenges.
+I will learn more about it and try to create a perfect website in the future.
