@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 :root{
     --text-color:black;
     --main-color:#A34231;
@@ -383,6 +384,29 @@
           color: #E63946;
    }
 
+=======
+   body{
+          background-color: #edd4be;
+          padding-right: 30px;
+   }
+
+   .head{
+          max-width: 90ch;
+          text-align: center;
+          padding-left: 500px;
+   }
+
+   header p{
+          text-align: center;
+          font-style: italic;
+          font-size: 30px;
+   }
+   
+   a {
+          color: #E63946;
+   }
+
+>>>>>>> b890ffa7cb7812fbca01e96442daee76dae2f6a9
    h1{
           font-size: 100px;
           font-family: "Anton", sans-serif;
@@ -576,4 +600,7 @@
    }
    
    
+<<<<<<< HEAD
+>>>>>>> b890ffa7cb7812fbca01e96442daee76dae2f6a9
+=======
 >>>>>>> b890ffa7cb7812fbca01e96442daee76dae2f6a9
